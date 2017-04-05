@@ -13,11 +13,17 @@ msgDivCero      db  "Error!! Ocurrio una division entre 0",0
 msgOverflow     db  "Error!! Ocurrio un overflow",0
 msgSintaxis     db  "Error!! Mal redaccion de la expresion",0
 msgVariable     db  "Error!! Ingreso variables en la expresion",0
+msgSum          db  "Procedimiento de suma",0
+msgRes          db  "Procedimiento de resta",0
+msgDiv          db  "Procedimiento de division",0
+msgMul          db  "Procedimiento de multiplicacion",0
+msgResult       db  "El resultado final es: ",0
+prioriDP        db  
 
 .UDATA
 exprexion       resb 30
 
 .CODE
-    .STARTUP    
+    .STARTUP
     
     .EXIT
